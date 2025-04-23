@@ -5,30 +5,32 @@ import About from "./pages/about"
 import Posts from "./pages/lista-post"
 import DefaultLayout from "./layouts/defaultLayout"
 import BlogDetail from "./pages/blogDetail"
+import { useState } from "react"
 
 function App() {
+  const [posts, setPosts] = useState([])
 
 
   return (
     <>
-      <PostContext.Provider value={{ posts, setPosts }}
-      <BrowserRouter>
+      <PostContext.Provider value={{ posts, setPosts }}>
+        <BrowserRouter>
 
 
 
-        <Routes>
-          <Route Component={DefaultLayout}>
-            <Route index Component={Homepage} />
-            <Route path="/homepage" Component={Homepage} />
-            <Route path="/about" Component={About} />
-            <Route path="/lista-post" Component={Posts} />
-            <Route path="/lista-post/:id" Component={BlogDetail} />
-          </Route>
+          <Routes>
+            <Route Component={DefaultLayout}>
+              <Route index Component={Homepage} />
+              <Route path="/homepage" Component={Homepage} />
+              <Route path="/about" Component={About} />
+              <Route path="/lista-post" Component={Posts} />
+              <Route path="/lista-post/:id" Component={BlogDetail} />
+            </Route>
 
-        </Routes>
+          </Routes>
 
-      </BrowserRouter>
-    </PostContext.Provider >
+        </BrowserRouter>
+      </PostContext.Provider >
     </>
   )
 }
