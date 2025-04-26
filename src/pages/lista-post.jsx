@@ -1,5 +1,4 @@
 import axios from "axios"
-import { useState, useEffect } from "react"
 import { Link } from "react-router-dom"
 import { useContext } from "react"
 import PostContext from "../contexts/PostContext"
@@ -7,7 +6,8 @@ import PostContext from "../contexts/PostContext"
 
 
 function Posts() {
-    const [posts, setPosts] = useState([])
+    const { posts } = useContext(PostContext)
+
 
     function fetchPosts() {
         axios.get("https://www.dnd5eapi.co/api/monsters")
