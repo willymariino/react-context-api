@@ -1,5 +1,6 @@
 import { useEffect } from "react"
 import { useContext } from "react"
+import PostContext from "../contexts/PostContext"
 import axios from "axios"
 
 function fetchPosts() {

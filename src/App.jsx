@@ -5,19 +5,12 @@ import About from "./pages/about"
 import Posts from "./pages/lista-post"
 import DefaultLayout from "./layouts/defaultLayout"
 import BlogDetail from "./pages/blogDetail"
-import { useEffect, useState } from "react"
-import axios from "axios"
+import { useState } from "react"
 
 function App() {
   const [posts, setPosts] = useState([])
 
-  function fetchPosts() {
-    axios.get("https://www.dnd5eapi.co/api/monsters")
-      .then((res) => setPosts(res.data.results))
-      .catch((error) => console.error("errore durante il caricamento", error))
-  }
 
-  useEffect(fetchPosts, []) // significa: soltanto quando monto questo componente, avviene la chiamata.
 
 
 
