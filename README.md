@@ -1,6 +1,6 @@
 # React Context API Project
 
-[![Live Demo](https://img.shields.io/badge/live-online-brightgreen)](https://react-router-blog-posts.netlify.app/homepage)
+[![Live Demo](https://img.shields.io/badge/live-demo-brightgreen)](https://react-router-blog-posts.netlify.app/homepage)
 
 ## Project Overview
 This project is a React-based Single Page Application (SPA) designed to demonstrate the following concepts:
