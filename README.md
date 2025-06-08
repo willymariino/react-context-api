@@ -25,6 +25,7 @@ This project is a React-based Single Page Application (SPA) designed to demonstr
 - **Context API**: For global state management.
 - **Vite**: 6.2.0 
 - **CSS3**
+- **Netlify** for online deployement
 
 ### External API
 [**D&D Monsters API**](https://www.dnd5eapi.co/api/monsters)
