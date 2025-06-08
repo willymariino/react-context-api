@@ -6,7 +6,7 @@
 This project is a React-based Single Page Application (SPA) designed to demonstrate the following concepts:
 
 1. **Routing with `react-router-dom`**: The application allows navigation between multiple pages using dedicated routes defined in `App.jsx`.
-2. **Fetching Data from an External API**: Data is imported into the application using Axios to make API calls to [D&D Monsters API](https://www.dnd5eapi.co/api/monsters).
+2. **Fetching Data from an External API**: Data is fetched using Axios, by making HTTP requests to the D&D Monsters API.
 3. **Dynamic Route Parameterization**: The application includes a page displaying a list of all items fetched from the API and a detail page for each item, linked dynamically via route parameters in `App.jsx`.
 4. **Global State Management with Context API**: A global context (`PostContext.jsx`) is created to make API data available throughout the app without relying on props, avoiding prop drilling.
 5. **Global Layout**: A global layout (`defaultLayout.jsx`) wraps all routes in `App.jsx`, ensuring the navbar is included by default on every page.
