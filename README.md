@@ -28,7 +28,7 @@ This project is a React-based Single Page Application (SPA) designed to demonstr
 [**D&D Monsters API**](https://www.dnd5eapi.co/api/monsters)
 
 ### Live Demo
-[![react context API](https://img.shields.io/badge/live-online-brightgreen)](https://react-router-blog-posts.netlify.app/homepage)
+[![react context API](https://img.shields.io/badge/React_context_Api-brightgreen)](https://react-router-blog-posts.netlify.app/homepage)
 
 ## How to Run Locally
 1. Clone the repository.
