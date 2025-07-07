@@ -3,7 +3,7 @@
 [![Live Demo](https://img.shields.io/badge/live-demo-brightgreen)](https://react-router-blog-posts.netlify.app/homepage)
 
 ## Project Overview
-This project is a React-based Single Page Application (SPA) designed to demonstrate the following concepts:
+This project is a React-based Single Page Application (SPA) designed to demonstrate the following concepts: 
 
 1. **Routing with `react-router-dom`**: The application allows navigation between multiple pages using dedicated routes defined in `App.jsx`.
 2. **Fetching Data from an External API**: Data is fetched using Axios, by making HTTP requests to the D&D Monsters API.
